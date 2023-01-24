@@ -14,15 +14,18 @@ public class AverageOfArrayNumbers {
 		for (int j = arr.length - 1; j >= 0; j--) {
 			System.out.print(arr[j] + " ");
 		}
-		System.out.println("\n" + "Even numbers of the array numbers is" + "\n");
+		System.out.println("\n"+"\n"+ "Even numbers of the array numbers is" + "\n");
 		for (int k = 0; k < arr.length; k++) {
 
 			if (arr[k] % 2 == 0) {
 				System.out.print(" " + arr[k]);
 			}
-
-			else {
-			}
+			
+		}System.out.println("\n"+"\n"+ "Odd numbers of the array numbers is" + "\n");
+		for (int l = 0; l < arr.length; l++)
+		{
+			if (arr[l] % 2 != 0)
+			System.out.print(" " + arr[l]);
 		}
 		{
 
